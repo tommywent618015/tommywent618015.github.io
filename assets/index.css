@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'admangraphics_auslan';
+	src: url('../fonts/admangraphics_auslan.ttf')
+}
+
+html {
+	background-image: url("../assets/img/background.jpeg");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body section {
+	background-color: #2699FB;
+}
+
+body {
+	margin: auto;
+	text-align: center;
+	color: #FFFFFF;
+	position: relative;
+	font-family: 'berlin';
+	font-family: admangraphics_auslan, sans-serif;
+	max-width: 960px;
+}
+
+header {
+	background-image: url("img/companylogoBG.jpg");
+	width: 960px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: berlin;
+	text-align: center;
+	line-height: 200px;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+	color: white;
+}
+
+header h1 {
+	margin: auto;
+	font-size: 5em;
+}
+
+nav {
+	background-color: #707070;
+	border: 1.5px solid #FFFFFF;
+}
+
+nav ul {
+	margin: auto;
+	padding: 6.5px 0;
+	max-width: 450px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 1.75em;
+	margin: auto;
+	padding: 0 10px;
+}
+
+img {
+	object-fit: cover;
+	width: 960px;
+	height: 400px;
+	display: block;
+}
+
+section h2 {
+	margin: auto;
+	font-size: 5em;
+	text-transform: uppercase;
+	padding: 6px 0;
+}
+
+footer {
+	background-color: #000000;
+	padding: 10px 0;
+	border: 1.5px solid #FFFFFF;
+}
+
+footer p {
+	font-size: 1.3em;
+	margin: 0.25em;
+}
+
+body section {
+	background-color: #2699FB;
+}
