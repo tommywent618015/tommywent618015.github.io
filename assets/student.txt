@@ -1,3 +1,0 @@
-student name : Tommy Went	 
-student number : 618015
-student class : INF1Sa
